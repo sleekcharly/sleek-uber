@@ -24,14 +24,14 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       [
         "expo-router",
         {
-          "origin": "https://uber.dev/"
+          "origin": "https://sleek_uber.com/"
         }
       ]
     ],
