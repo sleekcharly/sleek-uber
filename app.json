@@ -8,13 +8,18 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#2F80ED"
+        "backgroundColor": "#ffffff"
       }
     },
     "web": {
@@ -26,16 +31,15 @@
       [
         "expo-router",
         {
-          "origin": "https://uber.com/"
+          "origin": "https://uber.dev/"
         }
       ],
       [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash.png",
-          "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#2F80ED"
+          "backgroundColor": "#ffffff"
         }
       ]
     ],
